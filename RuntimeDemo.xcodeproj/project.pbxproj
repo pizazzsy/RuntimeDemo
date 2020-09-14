@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D46863A1250B65F6004361F9 /* UIButton+Delay.m in Sources */ = {isa = PBXBuildFile; fileRef = D46863A0250B65F6004361F9 /* UIButton+Delay.m */; };
 		D4B6C6ED250A190500703E14 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B6C6EC250A190500703E14 /* AppDelegate.m */; };
 		D4B6C6F0250A190500703E14 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B6C6EF250A190500703E14 /* SceneDelegate.m */; };
 		D4B6C6F3250A190500703E14 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B6C6F2250A190500703E14 /* ViewController.m */; };
@@ -15,6 +16,9 @@
 		D4B6C6FB250A190700703E14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4B6C6F9250A190700703E14 /* LaunchScreen.storyboard */; };
 		D4B6C6FE250A190700703E14 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B6C6FD250A190700703E14 /* main.m */; };
 		D4B6C708250A190700703E14 /* RuntimeDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B6C707250A190700703E14 /* RuntimeDemoUITests.m */; };
+		D4B6C714250A1CCC00703E14 /* PartOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B6C713250A1CCC00703E14 /* PartOneViewController.m */; };
+		D4B6C717250A1CE300703E14 /* PartTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B6C716250A1CE300703E14 /* PartTwoViewController.m */; };
+		D4B6C71A250A1CF700703E14 /* PartThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B6C719250A1CF700703E14 /* PartThreeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D468639F250B65F6004361F9 /* UIButton+Delay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+Delay.h"; sourceTree = "<group>"; };
+		D46863A0250B65F6004361F9 /* UIButton+Delay.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Delay.m"; sourceTree = "<group>"; };
 		D4B6C6E8250A190500703E14 /* RuntimeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RuntimeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4B6C6EB250A190500703E14 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D4B6C6EC250A190500703E14 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -43,6 +49,12 @@
 		D4B6C703250A190700703E14 /* RuntimeDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RuntimeDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4B6C707250A190700703E14 /* RuntimeDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuntimeDemoUITests.m; sourceTree = "<group>"; };
 		D4B6C709250A190700703E14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4B6C712250A1CCC00703E14 /* PartOneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PartOneViewController.h; sourceTree = "<group>"; };
+		D4B6C713250A1CCC00703E14 /* PartOneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PartOneViewController.m; sourceTree = "<group>"; };
+		D4B6C715250A1CE300703E14 /* PartTwoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PartTwoViewController.h; sourceTree = "<group>"; };
+		D4B6C716250A1CE300703E14 /* PartTwoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PartTwoViewController.m; sourceTree = "<group>"; };
+		D4B6C718250A1CF700703E14 /* PartThreeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PartThreeViewController.h; sourceTree = "<group>"; };
+		D4B6C719250A1CF700703E14 /* PartThreeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PartThreeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,11 +102,19 @@
 				D4B6C6EF250A190500703E14 /* SceneDelegate.m */,
 				D4B6C6F1250A190500703E14 /* ViewController.h */,
 				D4B6C6F2250A190500703E14 /* ViewController.m */,
+				D4B6C712250A1CCC00703E14 /* PartOneViewController.h */,
+				D4B6C713250A1CCC00703E14 /* PartOneViewController.m */,
+				D4B6C715250A1CE300703E14 /* PartTwoViewController.h */,
+				D4B6C716250A1CE300703E14 /* PartTwoViewController.m */,
+				D4B6C718250A1CF700703E14 /* PartThreeViewController.h */,
+				D4B6C719250A1CF700703E14 /* PartThreeViewController.m */,
 				D4B6C6F4250A190500703E14 /* Main.storyboard */,
 				D4B6C6F7250A190700703E14 /* Assets.xcassets */,
 				D4B6C6F9250A190700703E14 /* LaunchScreen.storyboard */,
 				D4B6C6FC250A190700703E14 /* Info.plist */,
 				D4B6C6FD250A190700703E14 /* main.m */,
+				D468639F250B65F6004361F9 /* UIButton+Delay.h */,
+				D46863A0250B65F6004361F9 /* UIButton+Delay.m */,
 			);
 			path = RuntimeDemo;
 			sourceTree = "<group>";
@@ -210,8 +230,12 @@
 			files = (
 				D4B6C6F3250A190500703E14 /* ViewController.m in Sources */,
 				D4B6C6ED250A190500703E14 /* AppDelegate.m in Sources */,
+				D4B6C717250A1CE300703E14 /* PartTwoViewController.m in Sources */,
+				D4B6C714250A1CCC00703E14 /* PartOneViewController.m in Sources */,
 				D4B6C6FE250A190700703E14 /* main.m in Sources */,
+				D4B6C71A250A1CF700703E14 /* PartThreeViewController.m in Sources */,
 				D4B6C6F0250A190500703E14 /* SceneDelegate.m in Sources */,
+				D46863A1250B65F6004361F9 /* UIButton+Delay.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,14 +391,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = E5KJ8HF8M5;
 				INFOPLIST_FILE = RuntimeDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.cqt.okauth.RuntimeDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cqt.okauth;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = okAutoDev;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -383,14 +410,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = E5KJ8HF8M5;
 				INFOPLIST_FILE = RuntimeDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.cqt.okauth.RuntimeDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cqt.okauth;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = okAutoDev;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
